@@ -32,6 +32,10 @@
 		5D26FAF11C5A435700199BF4 /* EightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26FAF01C5A435700199BF4 /* EightViewController.m */; };
 		5D26FAF41C5A50EE00199BF4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26FAF31C5A50EE00199BF4 /* SecondViewController.m */; };
 		5D26FAF71C5A52FE00199BF4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26FAF61C5A52FE00199BF4 /* ThirdViewController.m */; };
+		5D26FAFA1C5A545600199BF4 /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26FAF91C5A545600199BF4 /* ForthViewController.m */; };
+		5D26FAFD1C5A54B800199BF4 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26FAFC1C5A54B800199BF4 /* FiveViewController.m */; };
+		5D26FB001C5A553100199BF4 /* sixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26FAFF1C5A553100199BF4 /* sixViewController.m */; };
+		5D26FB031C5A559100199BF4 /* sevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D26FB021C5A559100199BF4 /* sevenViewController.m */; };
 		5D7F792C1C5A042C00D8C968 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F792B1C5A042C00D8C968 /* main.m */; };
 		5D7F792F1C5A042C00D8C968 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F792E1C5A042C00D8C968 /* AppDelegate.m */; };
 		5D7F79321C5A042C00D8C968 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F79311C5A042C00D8C968 /* ViewController.m */; };
@@ -94,6 +98,14 @@
 		5D26FAF31C5A50EE00199BF4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5D26FAF51C5A52FE00199BF4 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		5D26FAF61C5A52FE00199BF4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5D26FAF81C5A545600199BF4 /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		5D26FAF91C5A545600199BF4 /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		5D26FAFB1C5A54B800199BF4 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		5D26FAFC1C5A54B800199BF4 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		5D26FAFE1C5A553100199BF4 /* sixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sixViewController.h; sourceTree = "<group>"; };
+		5D26FAFF1C5A553100199BF4 /* sixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sixViewController.m; sourceTree = "<group>"; };
+		5D26FB011C5A559100199BF4 /* sevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sevenViewController.h; sourceTree = "<group>"; };
+		5D26FB021C5A559100199BF4 /* sevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sevenViewController.m; sourceTree = "<group>"; };
 		5D7F79261C5A042C00D8C968 /* Abbort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abbort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7F792A1C5A042C00D8C968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7F792B1C5A042C00D8C968 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -195,6 +207,14 @@
 				5D26FAF31C5A50EE00199BF4 /* SecondViewController.m */,
 				5D26FAF51C5A52FE00199BF4 /* ThirdViewController.h */,
 				5D26FAF61C5A52FE00199BF4 /* ThirdViewController.m */,
+				5D26FAF81C5A545600199BF4 /* ForthViewController.h */,
+				5D26FAF91C5A545600199BF4 /* ForthViewController.m */,
+				5D26FAFB1C5A54B800199BF4 /* FiveViewController.h */,
+				5D26FAFC1C5A54B800199BF4 /* FiveViewController.m */,
+				5D26FAFE1C5A553100199BF4 /* sixViewController.h */,
+				5D26FAFF1C5A553100199BF4 /* sixViewController.m */,
+				5D26FB011C5A559100199BF4 /* sevenViewController.h */,
+				5D26FB021C5A559100199BF4 /* sevenViewController.m */,
 				5D7F795E1C5A1BE200D8C968 /* MainStoryboard1.storyboard */,
 				5D7F79361C5A042C00D8C968 /* Images.xcassets */,
 				5D7F79381C5A042C00D8C968 /* LaunchScreen.xib */,
@@ -401,14 +421,18 @@
 			files = (
 				5D26FAF41C5A50EE00199BF4 /* SecondViewController.m in Sources */,
 				5D7F795D1C5A1BCC00D8C968 /* PhotoViewController.m in Sources */,
+				5D26FAFA1C5A545600199BF4 /* ForthViewController.m in Sources */,
 				5D7F79321C5A042C00D8C968 /* ViewController.m in Sources */,
+				5D26FB031C5A559100199BF4 /* sevenViewController.m in Sources */,
 				5D7F792F1C5A042C00D8C968 /* AppDelegate.m in Sources */,
 				5D7F79711C5A1C9300D8C968 /* SidebarViewController.m in Sources */,
 				5D26FAF71C5A52FE00199BF4 /* ThirdViewController.m in Sources */,
 				5D7F792C1C5A042C00D8C968 /* main.m in Sources */,
 				5D26FAF11C5A435700199BF4 /* EightViewController.m in Sources */,
+				5D26FB001C5A553100199BF4 /* sixViewController.m in Sources */,
 				5D7F79701C5A1C9300D8C968 /* MainViewController.m in Sources */,
 				5D7F79511C5A15BA00D8C968 /* SWRevealViewController.m in Sources */,
+				5D26FAFD1C5A54B800199BF4 /* FiveViewController.m in Sources */,
 				5D7F795C1C5A1BCC00D8C968 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

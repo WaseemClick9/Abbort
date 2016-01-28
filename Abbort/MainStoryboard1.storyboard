@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FUu-XX-1jG">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Photo View Controller-->
@@ -84,12 +85,38 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Srd-94-CdF">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uD7-1D-pkK">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="malnutrition.png" translatesAutoresizingMaskIntoConstraints="NO" id="vRM-iM-Db9">
+                                        <rect key="frame" x="59" y="-160" width="483" height="158"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.78328804350000003" green="0.055872482199999997" blue="0.48659101500000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="vRM-iM-Db9" secondAttribute="bottom" constant="202" id="d9F-Jc-A9c"/>
+                                    <constraint firstItem="vRM-iM-Db9" firstAttribute="leading" secondItem="uD7-1D-pkK" secondAttribute="leading" constant="59" id="hhz-MP-aH9"/>
+                                    <constraint firstItem="vRM-iM-Db9" firstAttribute="top" secondItem="uD7-1D-pkK" secondAttribute="top" constant="-160" id="kZI-CC-dNJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="vRM-iM-Db9" secondAttribute="trailing" constant="58" id="u0z-ge-FNz"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="comparsion.png" translatesAutoresizingMaskIntoConstraints="NO" id="XfU-Wk-Ava">
+                                <rect key="frame" x="50" y="600" width="436" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="import.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Lh-37-vhs">
+                                <rect key="frame" x="455" y="124" width="372" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Srd-94-CdF" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="9RR-xP-paq"/>
+                            <constraint firstItem="XfU-Wk-Ava" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="34" id="9ru-XC-ech"/>
                             <constraint firstItem="7dA-FR-FqZ" firstAttribute="top" secondItem="Srd-94-CdF" secondAttribute="bottom" id="ERx-ya-7QT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uD7-1D-pkK" secondAttribute="trailing" constant="-16" id="FHn-tB-cWx"/>
+                            <constraint firstItem="uD7-1D-pkK" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="-16" id="J6S-RR-Q9e"/>
+                            <constraint firstItem="uD7-1D-pkK" firstAttribute="top" secondItem="PYS-4I-YtD" secondAttribute="bottom" constant="-20" id="LAi-dM-jyn"/>
                             <constraint firstItem="Srd-94-CdF" firstAttribute="top" secondItem="3" secondAttribute="top" id="RL9-2Y-Wa5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XfU-Wk-Ava" secondAttribute="trailing" constant="98" id="WYp-uc-un6"/>
                             <constraint firstAttribute="trailing" secondItem="Srd-94-CdF" secondAttribute="trailing" id="daf-AV-lvK"/>
                         </constraints>
                     </view>
@@ -97,6 +124,10 @@
                         <barButtonItem key="leftBarButtonItem" image="menu.png" id="4DU-rm-gHC"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="ComparsionImg" destination="XfU-Wk-Ava" id="aod-WW-Kqg"/>
+                        <outlet property="ImportImg" destination="5Lh-37-vhs" id="XKy-cI-bU7"/>
+                        <outlet property="malImg" destination="vRM-iM-Db9" id="J5U-oV-VqV"/>
+                        <outlet property="malnutrition" destination="uD7-1D-pkK" id="zPG-wF-ALD"/>
                         <outlet property="sidebarButton" destination="4DU-rm-gHC" id="gCT-AB-0W6"/>
                     </connections>
                 </viewController>
@@ -349,6 +380,9 @@
         <image name="bookmark.png" width="1024" height="1024"/>
         <image name="calendar.png" width="1024" height="1024"/>
         <image name="comments.png" width="1024" height="1024"/>
+        <image name="comparsion.png" width="556" height="112"/>
+        <image name="import.png" width="489" height="282"/>
+        <image name="malnutrition.png" width="483" height="117"/>
         <image name="map.png" width="1024" height="1024"/>
         <image name="menu.png" width="28" height="20"/>
         <image name="news.png" width="1024" height="1024"/>

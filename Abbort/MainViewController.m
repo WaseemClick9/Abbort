@@ -6,8 +6,10 @@
 //  Copyright (c) 2013 Appcoda. All rights reserved.
 //
 
+#import <QuartzCore/QuartzCore.h>
 #import "MainViewController.h"
 #import "SWRevealViewController.h"
+
 
 @interface MainViewController ()
 
@@ -15,11 +17,24 @@
 
 @implementation MainViewController
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+   
+    
+    
+    [self Malnutrition];
+    
+  [self Comparesion];
+    //[self import];
+   // UITapGestureRecognizer *singleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(Malnutrition)];
+//    
+  // [malnutrition addGestureRecognizer:singleTapGestureRecognizer];
 
-    self.title = @"News";
+    
+
+    self.title = @"Ensure Product";
 
     // Change button color
     _sidebarButton.tintColor = [UIColor colorWithWhite:0.1f alpha:0.9f];
@@ -33,6 +48,90 @@
 
 }
 
+
+
+-(void)Malnutrition
+{
+    
+    CGRect basketTopFrame = malnutrition.frame;
+    
+    basketTopFrame.origin.y = 100;
+    
+    [UIView animateWithDuration:0.8 delay:1.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ malnutrition.frame = basketTopFrame; } completion:^(BOOL finished){
+        
+        NSLog(@"Done!");
+        
+        
+    }];
+}
+
+
+-(void)Comparesion{
+    
+    CGRect basketTopFrame = ComparsionImg.frame;
+    
+    basketTopFrame.origin.y = 300;
+    
+    [UIView animateWithDuration:1.8 delay:5.5 options:UIViewAnimationOptionCurveEaseIn animations:^{ ComparsionImg.frame = basketTopFrame; } completion:^(BOOL finished){
+        
+        NSLog(@"Done!");
+        
+    }];
+}
+
+
+-(void)import
+{
+    CABasicAnimation *animation = [CABasicAnimation animation];
+    animation.keyPath = @"position.x";
+    animation.fromValue = @77;
+    animation.toValue = @455;
+    animation.duration = 1;
+    
+    animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.5:0:0.9:0.7];
+    
+    [ImportImg.layer addAnimation:animation forKey:@"basic"];
+    
+//    CABasicAnimation *animation = [CABasicAnimation animation];
+//    animation.keyPath = @"position.x";
+//    animation.fromValue = @77;
+//    animation.toValue = @455;
+//    animation.duration = 1;
+//    
+//    animation.fillMode = kCAFillModeForwards;
+//    animation.removedOnCompletion = NO;
+//    
+//    [ImportImg.layer addAnimation:animation forKey:@"basic"];
+    
+//    CABasicAnimation *animation = [CABasicAnimation animation];
+//    animation.keyPath = @"position.x";
+//    animation.fromValue = @77;
+//    animation.toValue = @455;
+//    animation.duration = 1.5;
+//    
+//    [ImportImg.layer addAnimation:animation forKey:@"basic"];
+//    CGRect basketTopFrame = ImportImg.frame;
+//    
+//    basketTopFrame.origin.x = -100;
+//    
+//    [UIView animateWithDuration:1.8 delay:3.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ ImportImg.frame = basketTopFrame; } completion:^(BOOL finished){
+//        
+//        NSLog(@"Done!");
+//         }];
+//    CABasicAnimation *animation = [CABasicAnimation animation];
+//    animation.keyPath = @"position.x";
+//    animation.fromValue = @600;
+//    animation.toValue = @150;
+//    animation.duration = 1.5;
+//    
+//    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionDefault];
+//    
+//    [ImportImg.layer addAnimation:animation forKey:@"basic"];
+//    
+//    
+//    ImportImg.layer.position = CGPointMake(150,125);
+
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

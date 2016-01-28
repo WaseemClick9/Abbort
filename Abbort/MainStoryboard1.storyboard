@@ -34,6 +34,34 @@
             </objects>
             <point key="canvasLocation" x="2473.125" y="-1191.5492957746478"/>
         </scene>
+        <!--Eight View Controller-->
+        <scene sceneID="Yx8-QJ-FU3">
+            <objects>
+                <viewController id="htA-Vh-RWS" customClass="EightViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PFw-tB-y5W"/>
+                        <viewControllerLayoutGuide type="bottom" id="3kZ-sH-Foc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Yu-E7-B0m">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New view" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Yh-sb-uth">
+                                <rect key="frame" x="217" y="150" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TQ8-2V-Ow2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1465" y="402"/>
+        </scene>
         <!--Map View Controller-->
         <scene sceneID="gbA-tY-N7d">
             <objects>
@@ -68,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1O-sx-2nD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2263.125" y="-391.9014084507042"/>
+            <point key="canvasLocation" x="2438" y="-402"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="5">
@@ -104,7 +132,7 @@
                                 <rect key="frame" x="50" y="600" width="436" height="128"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="import.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Lh-37-vhs">
-                                <rect key="frame" x="600" y="269" width="469" height="128"/>
+                                <rect key="frame" x="50" y="269" width="469" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="6TD-jJ-6IN"/>
                                     <constraint firstAttribute="width" constant="469" id="GBe-Sf-Bws"/>
@@ -117,10 +145,10 @@
                             <constraint firstItem="XfU-Wk-Ava" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="34" id="9ru-XC-ech"/>
                             <constraint firstItem="7dA-FR-FqZ" firstAttribute="top" secondItem="Srd-94-CdF" secondAttribute="bottom" id="ERx-ya-7QT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uD7-1D-pkK" secondAttribute="trailing" constant="-16" id="FHn-tB-cWx"/>
-                            <constraint firstItem="5Lh-37-vhs" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="584" id="GGa-X4-OBE"/>
+                            <constraint firstItem="5Lh-37-vhs" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="34" id="GGa-X4-OBE"/>
                             <constraint firstItem="uD7-1D-pkK" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="-16" id="J6S-RR-Q9e"/>
                             <constraint firstItem="uD7-1D-pkK" firstAttribute="top" secondItem="PYS-4I-YtD" secondAttribute="bottom" constant="30" id="LAi-dM-jyn"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="5Lh-37-vhs" secondAttribute="trailing" constant="-485" id="M2W-cI-jU6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Lh-37-vhs" secondAttribute="trailing" constant="65" id="M2W-cI-jU6"/>
                             <constraint firstItem="Srd-94-CdF" firstAttribute="top" secondItem="3" secondAttribute="top" id="RL9-2Y-Wa5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XfU-Wk-Ava" secondAttribute="trailing" constant="98" id="WYp-uc-un6"/>
                             <constraint firstAttribute="trailing" secondItem="Srd-94-CdF" secondAttribute="trailing" id="daf-AV-lvK"/>
@@ -140,6 +168,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2263" y="368"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="GAA-Bu-DP8">
+            <objects>
+                <viewController id="kGe-7r-kzW" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vk8-bv-edS"/>
+                        <viewControllerLayoutGuide type="bottom" id="pEj-hn-dV3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aw6-Ld-9cX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Third" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewh-qf-EIM">
+                                <rect key="frame" x="138" y="103" width="135" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lgm-o7-4lS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1178" y="-972"/>
         </scene>
         <!--Sidebar-->
         <scene sceneID="8EI-Ei-zax">
@@ -181,15 +235,15 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="news.png" translatesAutoresizingMaskIntoConstraints="NO" id="gPt-Ui-bHg">
-                                            <rect key="frame" x="20" y="3" width="38" height="38"/>
-                                        </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="First" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycR-lP-TdN">
                                             <rect key="frame" x="66" y="11" width="144" height="22"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="25"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gPt-Ui-bHg">
+                                            <rect key="frame" x="20" y="3" width="38" height="38"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
@@ -203,15 +257,15 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="comments.png" translatesAutoresizingMaskIntoConstraints="NO" id="kbu-bk-igf">
-                                            <rect key="frame" x="20" y="3" width="38" height="38"/>
-                                        </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Second" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k99-vX-MBt">
                                             <rect key="frame" x="66" y="11" width="144" height="22"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="25"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kbu-bk-igf">
+                                            <rect key="frame" x="20" y="3" width="38" height="38"/>
+                                        </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
@@ -225,7 +279,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map.png" translatesAutoresizingMaskIntoConstraints="NO" id="NHE-ui-a5w">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NHE-ui-a5w">
                                             <rect key="frame" x="20" y="3" width="38" height="38"/>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Third" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Flb-Ln-9gq">
@@ -237,7 +291,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="CZq-aJ-KAU" kind="custom" customClass="SWRevealViewControllerSegue" id="4em-UD-Up4"/>
+                                    <segue destination="kGe-7r-kzW" kind="custom" customClass="SWRevealViewControllerSegue" id="fDi-ju-dpM"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="calendar" id="ENQ-1b-eHP">
@@ -247,20 +301,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Calendar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2P-4I-rgO">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Forth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2P-4I-rgO">
                                             <rect key="frame" x="66" y="8" width="144" height="29"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="25"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar.png" translatesAutoresizingMaskIntoConstraints="NO" id="eka-gb-AQc">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eka-gb-AQc">
                                             <rect key="frame" x="20" y="3" width="38" height="38"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="tiA-fo-4jg" kind="custom" identifier="showPhoto" customClass="SWRevealViewControllerSegue" id="ZUb-hp-3XV"/>
-                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wishlist" id="8V2-1t-alB">
                                 <rect key="frame" x="0.0" y="242" width="320" height="44"/>
@@ -269,20 +320,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Wishlist" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAe-Dj-9yp">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Fifth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAe-Dj-9yp">
                                             <rect key="frame" x="66" y="7" width="144" height="30"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="25"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wishlist.png" translatesAutoresizingMaskIntoConstraints="NO" id="mfd-G3-GSh">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mfd-G3-GSh">
                                             <rect key="frame" x="20" y="3" width="38" height="38"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="tiA-fo-4jg" kind="custom" identifier="showPhoto" customClass="SWRevealViewControllerSegue" id="FQU-DN-aIl"/>
-                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="bookmark" id="vx8-y7-E6I">
                                 <rect key="frame" x="0.0" y="286" width="320" height="44"/>
@@ -291,20 +339,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Bookmark" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcw-ny-ugr">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Six" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcw-ny-ugr">
                                             <rect key="frame" x="66" y="7" width="144" height="30"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="25"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmark.png" translatesAutoresizingMaskIntoConstraints="NO" id="5dv-tp-R3T">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5dv-tp-R3T">
                                             <rect key="frame" x="20" y="3" width="38" height="38"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="tiA-fo-4jg" kind="custom" identifier="showPhoto" customClass="SWRevealViewControllerSegue" id="er7-P3-3nh"/>
-                                </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tag" id="W20-Xq-Nh8">
                                 <rect key="frame" x="0.0" y="330" width="320" height="44"/>
@@ -313,19 +358,38 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Tag" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjg-8q-PI9">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Seven" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjg-8q-PI9">
                                             <rect key="frame" x="66" y="7" width="144" height="30"/>
                                             <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="25"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tag.png" translatesAutoresizingMaskIntoConstraints="NO" id="fRy-GW-RjC">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fRy-GW-RjC">
                                             <rect key="frame" x="20" y="3" width="38" height="38"/>
                                         </imageView>
                                     </subviews>
                                 </tableViewCellContentView>
+                            </tableViewCell>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="newView" id="WZk-fe-Z7U">
+                                <rect key="frame" x="0.0" y="330" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WZk-fe-Z7U" id="nLn-0q-VYp">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tzc-ZB-npc">
+                                            <rect key="frame" x="20" y="3" width="38" height="38"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="new View" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFC-SX-gUt">
+                                            <rect key="frame" x="66" y="7" width="144" height="30"/>
+                                            <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="25"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="tiA-fo-4jg" kind="custom" identifier="showPhoto" customClass="SWRevealViewControllerSegue" id="AIW-Sk-7FH"/>
+                                    <segue destination="htA-Vh-RWS" kind="custom" customClass="SWRevealViewControllerSegue" id="h2e-Mb-7a4"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -337,7 +401,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pan-AZ-D0k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1081.875" y="-391.9014084507042"/>
+            <point key="canvasLocation" x="1005" y="-76"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Z6-ag-ZQ1">
@@ -355,7 +419,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vOb-gn-Bt7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1081.875" y="368.66197183098586"/>
+            <point key="canvasLocation" x="1102" y="560"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="Km2-4s-uzW">
@@ -382,21 +446,20 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1.jpg" width="1024" height="768"/>
+        <image name="2.jpg" width="1024" height="768"/>
+        <image name="3.jpg" width="1024" height="768"/>
+        <image name="4.jpg" width="1024" height="768"/>
+        <image name="5.jpg" width="1024" height="768"/>
+        <image name="6.jpg" width="1024" height="768"/>
+        <image name="7.jpg" width="1024" height="768"/>
         <image name="bg.png" width="2048" height="1536"/>
-        <image name="bookmark.png" width="1024" height="1024"/>
-        <image name="calendar.png" width="1024" height="1024"/>
-        <image name="comments.png" width="1024" height="1024"/>
         <image name="comparsion.png" width="556" height="112"/>
         <image name="import.png" width="489" height="282"/>
         <image name="malnutrition.png" width="483" height="117"/>
-        <image name="map.png" width="1024" height="1024"/>
         <image name="menu.png" width="28" height="20"/>
-        <image name="news.png" width="1024" height="1024"/>
-        <image name="tag.png" width="1024" height="1024"/>
-        <image name="wishlist.png" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="jQ0-BX-zjj"/>
-        <segue reference="AIW-Sk-7FH"/>
     </inferredMetricsTieBreakers>
 </document>

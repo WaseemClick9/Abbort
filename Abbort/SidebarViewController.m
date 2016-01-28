@@ -31,7 +31,7 @@
 {
     [super viewDidLoad];
 
-    menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag"];
+    menuItems = @[@"title", @"news", @"comments", @"map", @"calendar", @"wishlist", @"bookmark", @"tag",@"newView"];
 }
 
 - (void)didReceiveMemoryWarning

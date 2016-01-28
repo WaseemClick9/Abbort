@@ -72,7 +72,7 @@
     
     basketTopFrame.origin.y = 300;
     
-    [UIView animateWithDuration:1.8 delay:5.5 options:UIViewAnimationOptionCurveEaseIn animations:^{ ComparsionImg.frame = basketTopFrame; } completion:^(BOOL finished){
+    [UIView animateWithDuration:0.8 delay:4.5 options:UIViewAnimationOptionCurveEaseIn animations:^{ ComparsionImg.frame = basketTopFrame; } completion:^(BOOL finished){
         
         NSLog(@"Done!");
         
@@ -86,9 +86,9 @@
     
     CGRect basketTopFrame = ImportImg.frame;
     
-    basketTopFrame.origin.x = 100;
+    basketTopFrame.origin.x = 200;
     
-    [UIView animateWithDuration:0.8 delay:3.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ ImportImg.frame = basketTopFrame; } completion:^(BOOL finished){
+    [UIView animateWithDuration:0.8 delay:2.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ ImportImg.frame = basketTopFrame; } completion:^(BOOL finished){
         
         NSLog(@"Done!");
         

@@ -27,7 +27,7 @@
     [self Malnutrition];
     
   [self Comparesion];
-    //[self import];
+    [self import];
    // UITapGestureRecognizer *singleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(Malnutrition)];
 //    
   // [malnutrition addGestureRecognizer:singleTapGestureRecognizer];
@@ -55,7 +55,7 @@
     
     CGRect basketTopFrame = malnutrition.frame;
     
-    basketTopFrame.origin.y = 100;
+    basketTopFrame.origin.y = 600;
     
     [UIView animateWithDuration:0.8 delay:1.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ malnutrition.frame = basketTopFrame; } completion:^(BOOL finished){
         
@@ -82,15 +82,27 @@
 
 -(void)import
 {
-    CABasicAnimation *animation = [CABasicAnimation animation];
-    animation.keyPath = @"position.x";
-    animation.fromValue = @77;
-    animation.toValue = @455;
-    animation.duration = 1;
     
-    animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.5:0:0.9:0.7];
     
-    [ImportImg.layer addAnimation:animation forKey:@"basic"];
+    CGRect basketTopFrame = ImportImg.frame;
+    
+    basketTopFrame.origin.x = 100;
+    
+    [UIView animateWithDuration:0.8 delay:3.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ ImportImg.frame = basketTopFrame; } completion:^(BOOL finished){
+        
+        NSLog(@"Done!");
+        
+        
+    }];
+//    CABasicAnimation *animation = [CABasicAnimation animation];
+//    animation.keyPath = @"position.x";
+//    animation.fromValue = @77;
+//    animation.toValue = @455;
+//    animation.duration = 1;
+//    
+//    animation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.5:0:0.9:0.7];
+//    
+//    [ImportImg.layer addAnimation:animation forKey:@"basic"];
     
 //    CABasicAnimation *animation = [CABasicAnimation animation];
 //    animation.keyPath = @"position.x";

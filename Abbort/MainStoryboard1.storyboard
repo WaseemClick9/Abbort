@@ -86,25 +86,29 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uD7-1D-pkK">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                <rect key="frame" x="0.0" y="50" width="600" height="200"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="malnutrition.png" translatesAutoresizingMaskIntoConstraints="NO" id="vRM-iM-Db9">
-                                        <rect key="frame" x="59" y="-160" width="483" height="158"/>
+                                        <rect key="frame" x="59" y="20" width="483" height="158"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.78328804350000003" green="0.055872482199999997" blue="0.48659101500000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="vRM-iM-Db9" secondAttribute="bottom" constant="202" id="d9F-Jc-A9c"/>
+                                    <constraint firstAttribute="bottom" secondItem="vRM-iM-Db9" secondAttribute="bottom" constant="22" id="d9F-Jc-A9c"/>
                                     <constraint firstItem="vRM-iM-Db9" firstAttribute="leading" secondItem="uD7-1D-pkK" secondAttribute="leading" constant="59" id="hhz-MP-aH9"/>
-                                    <constraint firstItem="vRM-iM-Db9" firstAttribute="top" secondItem="uD7-1D-pkK" secondAttribute="top" constant="-160" id="kZI-CC-dNJ"/>
+                                    <constraint firstItem="vRM-iM-Db9" firstAttribute="top" secondItem="uD7-1D-pkK" secondAttribute="top" constant="20" id="kZI-CC-dNJ"/>
                                     <constraint firstAttribute="trailing" secondItem="vRM-iM-Db9" secondAttribute="trailing" constant="58" id="u0z-ge-FNz"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="comparsion.png" translatesAutoresizingMaskIntoConstraints="NO" id="XfU-Wk-Ava">
                                 <rect key="frame" x="50" y="600" width="436" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="import.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Lh-37-vhs">
-                                <rect key="frame" x="455" y="124" width="372" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="import.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Lh-37-vhs">
+                                <rect key="frame" x="600" y="269" width="469" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="6TD-jJ-6IN"/>
+                                    <constraint firstAttribute="width" constant="469" id="GBe-Sf-Bws"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -113,8 +117,10 @@
                             <constraint firstItem="XfU-Wk-Ava" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="34" id="9ru-XC-ech"/>
                             <constraint firstItem="7dA-FR-FqZ" firstAttribute="top" secondItem="Srd-94-CdF" secondAttribute="bottom" id="ERx-ya-7QT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uD7-1D-pkK" secondAttribute="trailing" constant="-16" id="FHn-tB-cWx"/>
+                            <constraint firstItem="5Lh-37-vhs" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="584" id="GGa-X4-OBE"/>
                             <constraint firstItem="uD7-1D-pkK" firstAttribute="leading" secondItem="3" secondAttribute="leadingMargin" constant="-16" id="J6S-RR-Q9e"/>
-                            <constraint firstItem="uD7-1D-pkK" firstAttribute="top" secondItem="PYS-4I-YtD" secondAttribute="bottom" constant="-20" id="LAi-dM-jyn"/>
+                            <constraint firstItem="uD7-1D-pkK" firstAttribute="top" secondItem="PYS-4I-YtD" secondAttribute="bottom" constant="30" id="LAi-dM-jyn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Lh-37-vhs" secondAttribute="trailing" constant="-485" id="M2W-cI-jU6"/>
                             <constraint firstItem="Srd-94-CdF" firstAttribute="top" secondItem="3" secondAttribute="top" id="RL9-2Y-Wa5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XfU-Wk-Ava" secondAttribute="trailing" constant="98" id="WYp-uc-un6"/>
                             <constraint firstAttribute="trailing" secondItem="Srd-94-CdF" secondAttribute="trailing" id="daf-AV-lvK"/>

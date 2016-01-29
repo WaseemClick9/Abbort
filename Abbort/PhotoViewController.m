@@ -102,16 +102,23 @@
 -(void)Malnutrition
 {
     
-    CGRect basketTopFrame = malnutrition.frame;
+    CGRect basketTopFrame = malImg.frame;
     
     basketTopFrame.origin.y = 600;
     
-    [UIView animateWithDuration:0.8 delay:0.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ malnutrition.frame = basketTopFrame; } completion:^(BOOL finished){
+    [UIView animateWithDuration:1.5 delay:0.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ malImg.frame = basketTopFrame; } completion:^(BOOL finished){
         
         NSLog(@"Done!");
         
         
     }];
+    
+    
+    [Mainheading setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:1.0f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [Mainheading setAlpha:1.f];
+    }  completion:nil];
 }
 
 
@@ -126,6 +133,49 @@
         NSLog(@"Done!");
         
     }];
+    
+    [CompareHeading setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:3.2f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [CompareHeading setAlpha:1.f];
+    }  completion:nil];
+    
+    [zero setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:3.5f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [zero setAlpha:1.f];
+    }  completion:nil];
+    
+    [twety setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:3.8f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [twety setAlpha:1.f];
+    }  completion:nil];
+    
+    [forty setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:4.1f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [forty setAlpha:1.f];
+    }  completion:nil];
+    
+    [sixty setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:4.4f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [sixty setAlpha:1.f];
+    }  completion:nil];
+    
+    [eigty setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:4.7f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [eigty setAlpha:1.f];
+    }  completion:nil];
+    
+    [hundred setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:5.0f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [hundred setAlpha:1.f];
+    }  completion:nil];
+    
 }
 
 
@@ -135,7 +185,7 @@
     
     
     [UIView animateWithDuration:1.5
-                          delay:1.5
+                          delay:2.0
                         options: UIViewAnimationOptionTransitionCurlUp
                      animations:^{
                          
@@ -146,6 +196,32 @@
                          //animCompleteHandlerCode..
                      }
      ];
+    
+    [importanthdg1 setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:2.5f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [importanthdg1 setAlpha:1.f];
+    }  completion:nil];
+    
+    [importanthdg2 setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:2.5f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [importanthdg2 setAlpha:1.f];
+    }  completion:nil];
+    
+    
+    [importanthdg3 setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:2.5f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [importanthdg3 setAlpha:1.f];
+    }  completion:nil];
+    
+    [importanthdg4 setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:2.5f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [importanthdg4 setAlpha:1.f];
+    }  completion:nil];
+    
     
     //    CGRect basketTopFrame = ImportImg.frame;
     //

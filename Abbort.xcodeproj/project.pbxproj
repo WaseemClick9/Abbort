@@ -59,6 +59,9 @@
 		5D7F797D1C5A238E00D8C968 /* comparsion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F797C1C5A238E00D8C968 /* comparsion.png */; };
 		5D7F797F1C5A251800D8C968 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7F797E1C5A251800D8C968 /* QuartzCore.framework */; };
 		5D7F79811C5A298200D8C968 /* import.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7F79801C5A298200D8C968 /* import.png */; };
+		5DF5EF1B1C5B9C0E00663676 /* sild2comparesion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5EF181C5B9C0E00663676 /* sild2comparesion.png */; };
+		5DF5EF1C1C5B9C0E00663676 /* silde2imp.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5EF191C5B9C0E00663676 /* silde2imp.png */; };
+		5DF5EF1D1C5B9C0E00663676 /* slide2banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5EF1A1C5B9C0E00663676 /* slide2banner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +145,9 @@
 		5D7F797C1C5A238E00D8C968 /* comparsion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comparsion.png; sourceTree = "<group>"; };
 		5D7F797E1C5A251800D8C968 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5D7F79801C5A298200D8C968 /* import.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = import.png; sourceTree = "<group>"; };
+		5DF5EF181C5B9C0E00663676 /* sild2comparesion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sild2comparesion.png; sourceTree = "<group>"; };
+		5DF5EF191C5B9C0E00663676 /* silde2imp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silde2imp.png; sourceTree = "<group>"; };
+		5DF5EF1A1C5B9C0E00663676 /* slide2banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slide2banner.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				5D72A82A1C5B880E00710F44 /* bannerslide1.png */,
+				5DF5EF171C5B9C0100663676 /* silde2 */,
 				5D72A8281C5B872200710F44 /* background1.png */,
 				5D26FAC51C5A405300199BF4 /* 2.jpg */,
 				5D26FAC61C5A405300199BF4 /* 3.jpg */,
@@ -296,6 +303,16 @@
 				5D7F79501C5A15BA00D8C968 /* SWRevealViewController.m */,
 			);
 			name = libary;
+			sourceTree = "<group>";
+		};
+		5DF5EF171C5B9C0100663676 /* silde2 */ = {
+			isa = PBXGroup;
+			children = (
+				5DF5EF181C5B9C0E00663676 /* sild2comparesion.png */,
+				5DF5EF191C5B9C0E00663676 /* silde2imp.png */,
+				5DF5EF1A1C5B9C0E00663676 /* slide2banner.png */,
+			);
+			name = silde2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,12 +409,15 @@
 				5D26FAEE1C5A405300199BF4 /* 21.jpg in Resources */,
 				5D26FADA1C5A405300199BF4 /* 2.jpg in Resources */,
 				5D7F793A1C5A042C00D8C968 /* LaunchScreen.xib in Resources */,
+				5DF5EF1D1C5B9C0E00663676 /* slide2banner.png in Resources */,
+				5DF5EF1B1C5B9C0E00663676 /* sild2comparesion.png in Resources */,
 				5D26FAE81C5A405300199BF4 /* 15.jpg in Resources */,
 				5D7F797B1C5A1F6900D8C968 /* malnutrition.png in Resources */,
 				5D26FAEA1C5A405300199BF4 /* 17.jpg in Resources */,
 				5D26FAE21C5A405300199BF4 /* 9.jpg in Resources */,
 				5D26FADD1C5A405300199BF4 /* 5.jpg in Resources */,
 				5D26FAE91C5A405300199BF4 /* 16.jpg in Resources */,
+				5DF5EF1C1C5B9C0E00663676 /* silde2imp.png in Resources */,
 				5D7F79761C5A1DC800D8C968 /* bg.png in Resources */,
 				5D7F795F1C5A1BE200D8C968 /* MainStoryboard1.storyboard in Resources */,
 				5D26FAE31C5A405300199BF4 /* 10.jpg in Resources */,

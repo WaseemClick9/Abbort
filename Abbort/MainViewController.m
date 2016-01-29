@@ -23,6 +23,10 @@
     [super viewDidLoad];
    
     
+   // [Lable setFont:[UIFont systemFontOfSize:16.0]];
+   // [Lable setMinimumScaleFactor:0.5];
+  //  [Lable setNumberOfLines:2];
+    //Lable.font = [UIFont fontWithName:@"Myriad Pro" size:60];
     
    // [self Malnutrition];
     
@@ -90,7 +94,7 @@
                         options: UIViewAnimationOptionTransitionCurlUp
                      animations:^{
     
-         ImportImg.frame = CGRectMake(-1020, 0, 10, 10);
+         ImportImg.frame = CGRectMake(-1080, 0, 10, 10);
      }
                      completion:^(BOOL finished){
                          //[splashImage removeFromSuperview];

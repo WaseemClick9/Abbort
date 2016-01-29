@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ThirdViewController : UIViewController
+{
+    IBOutlet UIView *View1;
+    
+}
 
 @end

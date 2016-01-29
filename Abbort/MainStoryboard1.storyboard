@@ -228,6 +228,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PmF-aR-AG1">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fCR-yp-ju1">
+                                <rect key="frame" x="116" y="50" width="300" height="199"/>
+                                <color key="backgroundColor" red="1" green="0.72592372429999996" blue="0.17312652070000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -237,6 +241,9 @@
                             <constraint firstItem="PmF-aR-AG1" firstAttribute="top" secondItem="aw6-Ld-9cX" secondAttribute="top" id="MLl-m3-iFM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="View1" destination="fCR-yp-ju1" id="XXS-nk-27G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lgm-o7-4lS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

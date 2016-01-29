@@ -19,6 +19,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
+    
+   
+    [UIView animateKeyframesWithDuration:3.0
+                                   delay:0.0
+                                 options:(UIViewAnimationCurveEaseInOut | UIViewAnimationCurveEaseIn)
+                              animations:^{
+                                  [View1 setCenter:CGPointMake(300, 500)];
+                              }
+                              completion:nil];
+    
+    
     UIImage *myImage = [UIImage imageNamed:@"menu.png"];
     
     UIBarButtonItem *Menu = [[UIBarButtonItem alloc]initWithImage: myImage style:UIBarButtonItemStylePlain target:self.revealViewController action:@selector(revealToggle:)];

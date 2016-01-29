@@ -11,6 +11,7 @@
 @interface ThirdViewController : UIViewController
 {
     IBOutlet UIView *View1;
+    IBOutlet UILabel *label;
     
 }
 

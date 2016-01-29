@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface PhotoViewController : UIViewController
+{
+    IBOutlet UIView *View1;
+    IBOutlet UIView *viewObjB;
+    IBOutlet UIView * viewObjC;
+}
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (weak, nonatomic) IBOutlet UIImageView *photoImageView;
 @property (strong, nonatomic) NSString *photoFilename;

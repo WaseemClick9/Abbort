@@ -28,6 +28,8 @@
     
   [self Comparesion];
     [self import];
+    
+ 
    // UITapGestureRecognizer *singleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(Malnutrition)];
 //    
   // [malnutrition addGestureRecognizer:singleTapGestureRecognizer];
@@ -57,7 +59,7 @@
     
     basketTopFrame.origin.y = 600;
     
-    [UIView animateWithDuration:0.8 delay:1.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ malnutrition.frame = basketTopFrame; } completion:^(BOOL finished){
+    [UIView animateWithDuration:0.8 delay:0.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ malnutrition.frame = basketTopFrame; } completion:^(BOOL finished){
         
         NSLog(@"Done!");
         
@@ -70,9 +72,9 @@
     
     CGRect basketTopFrame = ComparsionImg.frame;
     
-    basketTopFrame.origin.y = 300;
+    basketTopFrame.origin.y = 200;
     
-    [UIView animateWithDuration:0.8 delay:4.5 options:UIViewAnimationOptionCurveEaseIn animations:^{ ComparsionImg.frame = basketTopFrame; } completion:^(BOOL finished){
+    [UIView animateWithDuration:0.8 delay:2.8 options:UIViewAnimationOptionCurveEaseIn animations:^{ ComparsionImg.frame = basketTopFrame; } completion:^(BOOL finished){
         
         NSLog(@"Done!");
         
@@ -82,18 +84,32 @@
 
 -(void)import
 {
+   
+  
     
+    [UIView animateWithDuration:1.5
+                          delay:1.5
+                        options: UIViewAnimationOptionTransitionCurlUp
+                     animations:^{
     
-    CGRect basketTopFrame = ImportImg.frame;
+         ImportImg.frame = CGRectMake(-920, 0, 10, 10);
+     }
+                     completion:^(BOOL finished){
+                         //[splashImage removeFromSuperview];
+                         //animCompleteHandlerCode..
+                     }
+     ];
     
-    basketTopFrame.origin.x = 200;
-    
-    [UIView animateWithDuration:0.8 delay:2.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ ImportImg.frame = basketTopFrame; } completion:^(BOOL finished){
-        
-        NSLog(@"Done!");
-        
-        
-    }];
+//    CGRect basketTopFrame = ImportImg.frame;
+//    
+//    basketTopFrame.origin.x = 200;
+//    
+//    [UIView animateWithDuration:0.8 delay:2.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ ImportImg.frame = basketTopFrame; } completion:^(BOOL finished){
+//        
+//        NSLog(@"Done!");
+//        
+//        
+//    }];
 //    CABasicAnimation *animation = [CABasicAnimation animation];
 //    animation.keyPath = @"position.x";
 //    animation.fromValue = @77;

@@ -13,7 +13,9 @@
     IBOutlet UIView *malnutrition;
     IBOutlet UIImageView *malImg;
     IBOutlet UIImageView *ComparsionImg;
-    IBOutlet UIImageView *ImportImg;
+    IBOutlet UIView *ImportImg;
+    
+    IBOutlet UILabel *Lable;
 }
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;

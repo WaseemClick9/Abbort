@@ -13,6 +13,13 @@
     IBOutlet UIView *View1;
     IBOutlet UIView *viewObjB;
     IBOutlet UIView * viewObjC;
+    
+    IBOutlet UIView *malnutrition;
+    IBOutlet UIImageView *malImg;
+    IBOutlet UIImageView *ComparsionImg;
+    IBOutlet UIImageView *ImportImg;
+    
+    
 }
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sidebarButton;
 @property (weak, nonatomic) IBOutlet UIImageView *photoImageView;

@@ -24,9 +24,9 @@
    
     
     
-    [self Malnutrition];
+   // [self Malnutrition];
     
-  [self Comparesion];
+  //[self Comparesion];
     [self import];
     
  
@@ -62,8 +62,6 @@
     [UIView animateWithDuration:0.8 delay:0.0 options:UIViewAnimationOptionCurveEaseIn animations:^{ malnutrition.frame = basketTopFrame; } completion:^(BOOL finished){
         
         NSLog(@"Done!");
-        
-        
     }];
 }
 
@@ -88,17 +86,25 @@
   
     
     [UIView animateWithDuration:1.5
-                          delay:1.5
+                          delay:0.5
                         options: UIViewAnimationOptionTransitionCurlUp
                      animations:^{
     
-         ImportImg.frame = CGRectMake(-920, 0, 10, 10);
+         ImportImg.frame = CGRectMake(-1020, 0, 10, 10);
      }
                      completion:^(BOOL finished){
                          //[splashImage removeFromSuperview];
                          //animCompleteHandlerCode..
                      }
      ];
+    
+    
+    [Lable setAlpha:0.f];
+    
+    [UIView animateWithDuration:2.f delay:1.8f options:UIViewAnimationOptionCurveEaseIn animations:^{
+        [Lable setAlpha:1.f];
+    }  completion:nil];
+    
     
 //    CGRect basketTopFrame = ImportImg.frame;
 //    
